@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #2C2C2C;
+	color: #BBB;
+}
+
+.wrapper {
+	width: 700px;
+	margin: 10px auto;
+	font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.top {
+	position: relative;	
+	clear: both;
+}
+
+.loginBar {
+	width: 100%;
+	padding: 4px 20px 4px 4px;
+	float: right;
+	clear: right;
+	text-align: right;
+	border-top: 1px solid rgba(0, 0, 0, 0.44);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+}
+
+.logoutButton {
+	background: #00789C;
+	padding: 6px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 75px;
+	text-align: center;
+	border: 2px solid #0095C3;
+	line-height: 1;
+	text-decoration: none;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 0px #000000;
+	color: #BBB;
+}
+
+.logoutButton:hover {
+	background: #0095C3;
+}
+
+.main {
+	clear: both;
+	padding-top: 20px;
+}
+
+#taskTable {
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+#taskTable th {
+	border-bottom: 1px solid #000; 
+}
+
+#taskTable .taskCell {
+	min-width: 300px;
+	padding: 4px;
+}
+
+#taskTable .dateCell {
+	min-width: 100px;
+	text-align: center;
+	padding: 4px;
+}
+
+#taskTable .actionCell {
+	min-width: 100px;
+	text-align: center;
+	padding: 4px;
+}
+
+#taskTable .actionCell a {
+	font-size: 12px;
+	color: #00A1D2;	
+}
+
+#taskTable .actionCell a:hover {
+	text-decoration: none;
+}
+
+.bottom {
+	border-top: 1px solid #000;
+}
+
+.bottom form {
+	width: 400px;
+	margin: 20px auto;
+}
+
+.bottom textarea {
+	color: #FFF;
+	background-color: #121212;
+	border: 1px solid #000;
+}
+
+.bottom input {
+	color: #FFF;
+	background-color: #121212;
+	border: 1px solid #000;
+}
+
+.taskError {
+	color: red;
+	text-align: right;
+}
