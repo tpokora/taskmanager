@@ -1,4 +1,4 @@
 taskmanager
 ===========
 
-Unfinished taskmanager project
+Taskmanager project
